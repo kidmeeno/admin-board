@@ -67,21 +67,37 @@ header{
     color: white;
     border-radius: 2px
 }
+
+#smallbox{
+	width: 35%;
+	height: 214px;
+	margin: 7px;
+    margin-top: 30px;
+    float: left;
+    background-color: white;
+    color: white;
+    border-radius: 2px
+}
+
+
 #nav-head{
 	height: 31px;
 	width: 15%;
 	float: left;
-	background-color: #367fa9
+	background-color: #367fa9;
+	color: white;
 }
 #nav2-head{
 	height: 31px;
     width: 20%;
     margin-left: auto;
     font-size: smaller;
+    color: white;
 }
 #nav-top{
 	width: 100%;
 	height: 100px;
+	color: white;
 }
 #navheaderL{
 	height: 30px;
@@ -113,21 +129,22 @@ ul{
 	padding: 0;
 }
 
-
+img{
+	border-radius: 20px;
+}
 
 
 #image-nav{
 	height: 48px;
 	width: 39px;
 	float: left;
-	border: 1px solid green;
 	margin: 9px;
+	border-radius: 5px;
 }
 
 #image-header{
 	height: 22px;
 	width: 25px;
-	border: 1px solid green;
 	margin: 2px;
 	float: left;
 }
@@ -169,7 +186,6 @@ p{
 	height: 31px;
 	width: 38px;
 	float: left;
-	border: 1px solid green;
 	margin: 9px; 
 }
 a{
@@ -278,6 +294,31 @@ ul li{
 		width: 100%;
 	}
 }
+
+
+@media only screen and (max-width: 600px){
+	.row1{
+		width: 21.7%;
+	}
+	
+	#bigbox1{
+		width: 95%;
+	}
+	#bigbox2{
+		width: 95%;
+	}
+	.smallbox{
+		width: 95%;
+	}
+	#smallbox{
+		width: 95%;
+	}
+
+
+
+
+
+
 @media only screen and (max-width: 460px){
 	#nav-head{
 		width: 34%;
@@ -297,4 +338,26 @@ ul li{
 	.smallbox{
 		width: 95%;
 	}
+	#smallbox{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 344px){
+	.row1{
+		width: 95%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.row{
+		width: 21.7%;
+	}
+}
+
+
+
+
+
+
+
 
