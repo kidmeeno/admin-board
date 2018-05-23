@@ -215,7 +215,7 @@ ul li{
  }
 
 #span-in-bigbox1{
-  	margin-left: 76%;
+  float: right;
 }
 
 #div-in-smallbox{
@@ -271,5 +271,45 @@ ul li{
 	background-color: #c64333;
 }
 @media only screen and (max-width: 782px){
-	
+	#nav{
+		display: none;
+	}
+	#content{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 460px){
+	#nav-head{
+		width: 34%;
+	}
+	#nav2-head{
+		width: 39%;
+	}
+	.row1{
+		width: 46%;
+	}
+	#bigbox1{
+		width: 95%;
+	}
+	#bigbox2{
+		width: 95%;
+	}
+	.smallbox{
+		width: 95%;
+	}
+}
+@media only screen and (max-width: 340px){
+	}
+	.row1{
+		width: 95%;
+	}
+	#bigbox1{
+		width: 95%;
+	}
+	#bigbox2{
+		width: 95%;
+	}
+	.smallbox{
+		width: 95%;
+	}
 }
